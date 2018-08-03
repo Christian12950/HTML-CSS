@@ -1,0 +1,21 @@
+body { /* This will apply for all items not defined already IN BODY*/
+    font-family: Helvetica Neue, Arial;
+    font-size: 18px;
+}
+
+h1, h2 {
+    color: rgba(41,61,225,0.75);
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-family: Helvetica Neue, Arial; /*This will overwrite the font-family in body*/
+    text-align: justify;
+}
