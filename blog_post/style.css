@@ -19,3 +19,15 @@ p {
     font-family: Helvetica Neue, Arial; /*This will overwrite the font-family in body*/
     text-align: justify;
 }
+
+.oh-yeah{
+    text-align: justify;
+}
+
+/*
+id only can use one element, so NOT as good
+#id-text{
+    text-align: left;
+    font-size: 35px;
+}
+*/
