@@ -1,3 +1,15 @@
+/*  MORE NOTES - BOX MODEL
+    CONTENT - text/images, has HEIGHT and WIDTH
+    PADDING - transparent area around the CONTENT, inside the box
+    BORDER - goes around padding and content
+    MARGIN - space between boxes
+ */
+
+* { /* This affects all elements */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body { /* This will apply for all items not defined already IN BODY*/
     font-family: Helvetica Neue, Arial;
     font-size: 18px;
@@ -9,10 +21,12 @@ h1, h2 {
 
 h1 {
     font-size: 40px;
+    margin-bottom: 20px;
 }
 
 h2 {
     font-size: 30px;
+    margin-bottom: 10px;
 }
 
 p {
@@ -22,8 +36,14 @@ p {
 
 .oh-yeah{
     text-align: justify;
+    margin-bottom: 20px;
 }
 
+.container {
+    width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
 /*
 id only can use one element, so NOT as good
 #id-text{
